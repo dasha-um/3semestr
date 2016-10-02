@@ -3,7 +3,7 @@ package com.company;
 import java.util.Random;
 
 public class Main {
-    static final  int Length = 10;
+    static final    int Length = 10;
     static int[] array = new int [Length];
         public static void q_sort(int begin, int end) {
             int middle = array[begin + (end - begin) / 2];
